@@ -1,7 +1,4 @@
-# 🎬 Reborn
-
-<img width="1200" height="300" alt="Unbenannt (1)" src="https://github.com/user-attachments/assets/13577ea7-163a-4526-9b6c-196560d6adf2" />
-
+<img width="1200" height="300" alt="Unbenannt" src="https://github.com/user-attachments/assets/0e0ca648-3097-4e0a-bb1e-fd61c8dc995f" />
 
 [Dokumentation](https://github.com/) • [Support](https://discord.com/) • [Installation](https://github.com/)
 
