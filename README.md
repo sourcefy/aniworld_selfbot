@@ -1,30 +1,15 @@
-🍜 𝗔𝗡𝗜𝗠𝗘-𝗦𝗧𝗥𝗘𝗔𝗠𝗘𝗥 𝗩𝟮.𝟬 (𝗕𝗥𝗔𝗩𝗘 𝗘𝗗𝗜𝗧𝗜𝗢𝗡)
-𝗗𝗲𝗶𝗻 𝗽𝗿𝗶𝘃𝗮𝘁𝗲𝘀 𝗗𝗶𝘀𝗰𝗼𝗿𝗱-𝗞𝗶𝗻𝗼
-
-
-Hey! Willkommen beim Anime-Streamer v2.0. 
-Kennst du das? Du willst mit Freunden über Discord Anime schauen, teilst deinen Bildschirm und zack – die Qualität ist furchtbar, es ruckelt und ständig ploppen irgendwelche dubiosen Werbefenster auf. 
-
-Genau dafür ist dieses Skript da. Es ist ein "Dual-Bot-System". Das heißt, ein unsichtbarer Selfbot klinkt sich in den Voice-Channel ein und streamt das Video in brillanter Qualität, während du alles ganz bequem über einen normalen, offiziellen Discord-Bot mit Slash-Befehlen und Klick-Buttons steuerst. 
-
-
-
 ⚠️ 𝗪𝗜𝗖𝗛𝗧𝗜𝗚𝗘𝗥 𝗛𝗜𝗡𝗪𝗘𝗜𝗦 𝗩𝗢𝗥𝗔𝗕 ⚠️
 
-Discord sieht Selfbots laut ihren Nutzungsbedingungen nicht gerne. Dass wir hier einen normalen Bot für die Bedienung dazwischengeschaltet haben, minimiert das Risiko für deinen Hauptaccount enorm. Aber bitte denk daran: Die Nutzung erfolgt auf eigene Gefahr! Be safe!
+Discord sieht Selfbots laut ihren Nutzungsbedingungen nicht gerne. Dass wir hier einen normalen Bot für die Bedienung dazwischengeschaltet haben, minimiert das Risiko für deinen Hauptaccount enorm. Aber bitte denk daran: Die Nutzung erfolgt auf eigene Gefahr!
 
 
+🚀 𝗪𝗔𝗥𝗨𝗠 𝗗𝗜𝗘𝗦𝗘𝗥 𝗕𝗢𝗧:
 
-🚀 𝗪𝗔𝗥𝗨𝗠 𝗗𝗜𝗘𝗦𝗘𝗥 𝗕𝗢𝗧 𝗥𝗢𝗖𝗞𝗧
-
-* Das Beste aus zwei Welten
-Du musst keine kryptischen Befehle mehr tippen. Klick einfach auf die normalen Discord-Buttons (Skip, Stop, Info), die dir der Bot anzeigt.
+* Das Beste aus zwei Welten*
+* Klick einfach auf die normalen Discord-Buttons (Skip, Stop, Info), die dir der Bot anzeigt.
 
 * Nie wieder Werbung
-Der Bot nutzt einen unsichtbaren Brave Browser im Hintergrund und hat einen extrem aggressiven Ghostery-Adblocker verbaut. Er killt sämtliche Popups und Overlays von Hostern wie VOE oder Streamtape.
-
-* Volle Auswahl
-Such dir aus, ob du von AniWorld oder Aniflix streamen willst. Egal ob Ger Sub, Ger Dub oder Englisch – du hast die Wahl.
+Der Bot nutzt einen unsichtbaren Brave Browser im Hintergrund und hat einen extrem aggressiven Adblocker verbaut. Er killt sämtliche Popups und Overlays von Hostern wie VOE oder Streamtape.
 
 * Autopilot für Faule
 Kein Nerv für aufwendige Installationen? Starte das Skript einfach. Alle nötigen Node-Module und der Playwright-Browser installieren sich beim ersten Start komplett von selbst.
@@ -32,8 +17,8 @@ Kein Nerv für aufwendige Installationen? Starte das Skript einfach. Alle nötig
 * Popcorn-Modus (Auto-Skip)
 Wenn du Binge-Watching betreibst, mach einfach Auto-Skip an. Der Bot lädt dann automatisch die nächste Episode, sobald die aktuelle fertig ist.
 
-
-
+* Hoste deinen Bot auf deinen Server
+* 
 💻 𝗦𝗢 𝗦𝗧𝗔𝗥𝗧𝗘𝗦𝗧 𝗗𝗨 𝗜𝗛𝗡
 
 1. Was du brauchst
@@ -48,8 +33,6 @@ Beim allerersten Start legt der Bot automatisch eine Datei namens config.env fü
 
 4. Lass ihn rödeln
 Wenn du ihn dann nochmal startest, installiert er fehlende Pakete nach und geht online!
-
-
 
 🎮 𝗗𝗜𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 
@@ -80,4 +63,20 @@ Schaltet das automatische Abspielen der nächsten Folge ein oder aus.
 Check deine Watch-Stats wie Uptime, gestreamte Folgen und Skips.
 
 
-Viel Spaß beim Streamen! 🍿
+✅ 𝗥𝗢𝗔𝗗𝗠𝗔𝗣 & 𝗖𝗛𝗘𝗖𝗞𝗟𝗜𝗦𝗧𝗘
+
+Was haben wir schon geschafft?
+[X] Dual-Bot Architektur für mehr Sicherheit beim Hauptaccount
+[X] Automatische Installation der Node-Module & des Playwright-Browsers
+[X] Adblocker & Anti-Popup-System (Ghostery + DOM-Nuke Script)
+[X] Integration von AniWorld
+[X] Auto-Skip Funktion für perfektes Binge-Watching
+[X] Interaktive Discord UI Buttons & Slash-Commands für die Steuerung
+[X] Verschiedene Qualitäts-Presets von 480p bis Ultra 1080p+
+[X] Eigene Watchlists & Playlists direkt über Discord erstellen
+
+Was kommt als Nächstes? (Planned Features)
+[ ] Weitere Streaming-Anbieter und Hoster-Support
+[ ] 24/7 Hosting
+[ ] Lautstärkeregelung direkt über die Klick-Buttons
+[ ] Benachrichtigungssystem, wenn neue Episoden eines Lieblings-Animes erscheinen
