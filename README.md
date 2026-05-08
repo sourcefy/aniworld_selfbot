@@ -1,5 +1,8 @@
 # 🎬 Reborn
 
+<img width="1200" height="300" alt="Unbenannt (1)" src="https://github.com/user-attachments/assets/13577ea7-163a-4526-9b6c-196560d6adf2" />
+
+
 [Dokumentation](https://github.com/) • [Support](https://discord.com/) • [Installation](https://github.com/)
 
 Ein Discord-Bot zur Steuerung und Automatisierung von Anime-Streams über Slash-Commands und Buttons.
