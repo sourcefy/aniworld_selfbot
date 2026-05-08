@@ -1,82 +1,63 @@
-⚠️ 𝗪𝗜𝗖𝗛𝗧𝗜𝗚𝗘𝗥 𝗛𝗜𝗡𝗪𝗘𝗜𝗦 𝗩𝗢𝗥𝗔𝗕 ⚠️
+# 🎬 Reborn
 
-Discord sieht Selfbots laut ihren Nutzungsbedingungen nicht gerne. Dass wir hier einen normalen Bot für die Bedienung dazwischengeschaltet haben, minimiert das Risiko für deinen Hauptaccount enorm. Aber bitte denk daran: Die Nutzung erfolgt auf eigene Gefahr!
+[Dokumentation](https://github.com/) • [Support](https://discord.com/) • [Installation](https://github.com/)
 
+Ein Discord-Bot zur Steuerung und Automatisierung von Anime-Streams über Slash-Commands und Buttons.
 
-🚀 𝗪𝗔𝗥𝗨𝗠 𝗗𝗜𝗘𝗦𝗘𝗥 𝗕𝗢𝗧:
+---
 
-* Das Beste aus zwei Welten*
-* Klick einfach auf die normalen Discord-Buttons (Skip, Stop, Info), die dir der Bot anzeigt.
+## Übersicht
 
-* Nie wieder Werbung
-Der Bot nutzt einen unsichtbaren Brave Browser im Hintergrund und hat einen extrem aggressiven Adblocker verbaut. Er killt sämtliche Popups und Overlays von Hostern wie VOE oder Streamtape.
+Reborn übernimmt die Steuerung von Anime-Streams direkt über Discord.  
+Die Bedienung läuft über Buttons und Slash-Commands, dadurch bleibt alles schnell und übersichtlich.
 
-* Autopilot für Faule
-Kein Nerv für aufwendige Installationen? Starte das Skript einfach. Alle nötigen Node-Module und der Playwright-Browser installieren sich beim ersten Start komplett von selbst.
+## Funktionen
 
-* Popcorn-Modus (Auto-Skip)
-Wenn du Binge-Watching betreibst, mach einfach Auto-Skip an. Der Bot lädt dann automatisch die nächste Episode, sobald die aktuelle fertig ist.
+- Steuerung direkt über Discord-Buttons.
+- Automatische Installation der benötigten Node-Module und des Playwright-Browsers beim ersten Start.
+- Brave Browser im Hintergrund mit Adblocker und Popup-Schutz.
+- Auto-Skip für das direkte Weiterspielen der nächsten Episode.
+- Einfache Einrichtung über `config.env`.
+- Unterstützung für Watchlists, Playlists und verschiedene Qualitätsstufen.
 
-* Hoste deinen Bot auf deinen Server
-* 
-💻 𝗦𝗢 𝗦𝗧𝗔𝗥𝗧𝗘𝗦𝗧 𝗗𝗨 𝗜𝗛𝗡
+## Kommandos
 
-1. Was du brauchst
-Node.js sollte installiert sein. Außerdem brauchst du den Brave Browser auf deinem PC, denn den schnappt sich das Skript für das Scraping. Um FFmpeg musst du dich nicht kümmern, das bringt der Bot selbst mit.
+| Befehl | Beschreibung |
+|---|---|
+| `/play [titel] [staffel] [episode]` | Sucht den Anime und startet den Stream. |
+| `/stop` | Stoppt den Stream und schließt den Browser. |
+| `/skip` | Springt zur nächsten Folge. |
+| `/np` | Zeigt an, was gerade läuft. |
+| `/quality [preset]` | Ändert die Stream-Qualität. |
+| `/provider` | Wechselt den Anbieter. |
+| `/autoskip` | Aktiviert oder deaktiviert Auto-Skip. |
+| `/stats` | Zeigt Uptime, Folgen und Skips. |
 
-2. Starten
-Öffne dein Terminal (oder CMD) in dem Ordner, in dem die Datei liegt und tippe ein: 
+## Start
+
+1. `Node.js` installieren.
+2. Den Bot im Projektordner starten:
+
+```bash
 node index.js
+```
 
-3. Einrichten
-Beim allerersten Start legt der Bot automatisch eine Datei namens config.env für dich an. Öffne sie und pack dort deinen Selfbot-Token und den Token deines normalen Bots rein.
+Oder empfohlen:
 
-4. Lass ihn rödeln
-Wenn du ihn dann nochmal startest, installiert er fehlende Pakete nach und geht online!
+```bash
+start.bat
+```
 
-🎮 𝗗𝗜𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
+3. Beim ersten Start wird `config.env` automatisch erstellt.
+4. Dort die benötigten Tokens eintragen und den Bot erneut starten.
 
-Steuere alles einfach über deinen Discord-Chat:
+## Roadmap
 
-/play [titel] [staffel] [episode] 
-Sucht deinen Anime und wirft den Stream im Voice-Channel an.
+- Weitere Anbieter und Hoster.
+- 24/7 Hosting.
+- Lautstärke direkt über Discord steuerbar.
+- Benachrichtigungen für neue Episoden.
 
-/stop                              
-Beendet den Stream und schließt den unsichtbaren Browser.
+## Hinweis
 
-/skip                              
-Springt direkt zur nächsten Folge.
-
-/np                                
-Zeigt dir detailliert an, welche Folge gerade in welcher Qualität läuft.
-
-/quality [preset]                  
-Ruckelt dein Internet? Stell die Qualität ein, von 480p bis Ultra 1080p+.
-
-/provider                          
-Wechsel mit einem Klick zwischen AniWorld und Aniflix.
-
-/autoskip                          
-Schaltet das automatische Abspielen der nächsten Folge ein oder aus.
-
-/stats                             
-Check deine Watch-Stats wie Uptime, gestreamte Folgen und Skips.
-
-
-✅ 𝗥𝗢𝗔𝗗𝗠𝗔𝗣 & 𝗖𝗛𝗘𝗖𝗞𝗟𝗜𝗦𝗧𝗘
-
-Was haben wir schon geschafft?
-[X] Dual-Bot Architektur für mehr Sicherheit beim Hauptaccount
-[X] Automatische Installation der Node-Module & des Playwright-Browsers
-[X] Adblocker & Anti-Popup-System (Ghostery + DOM-Nuke Script)
-[X] Integration von AniWorld
-[X] Auto-Skip Funktion für perfektes Binge-Watching
-[X] Interaktive Discord UI Buttons & Slash-Commands für die Steuerung
-[X] Verschiedene Qualitäts-Presets von 480p bis Ultra 1080p+
-[X] Eigene Watchlists & Playlists direkt über Discord erstellen
-
-Was kommt als Nächstes? (Planned Features)
-[ ] Weitere Streaming-Anbieter und Hoster-Support
-[ ] 24/7 Hosting
-[ ] Lautstärkeregelung direkt über die Klick-Buttons
-[ ] Benachrichtigungssystem, wenn neue Episoden eines Lieblings-Animes erscheinen
+Die Nutzung erfolgt auf eigene Verantwortung.
