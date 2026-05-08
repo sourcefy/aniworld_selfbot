@@ -1,5 +1,5 @@
-🍜 ANIME-STREAMER V2.0 (BRAVE EDITION)
-Dein privates Discord-Kino
+🍜 𝗔𝗡𝗜𝗠𝗘-𝗦𝗧𝗥𝗘𝗔𝗠𝗘𝗥 𝗩𝟮.𝟬 (𝗕𝗥𝗔𝗩𝗘 𝗘𝗗𝗜𝗧𝗜𝗢𝗡)
+𝗗𝗲𝗶𝗻 𝗽𝗿𝗶𝘃𝗮𝘁𝗲𝘀 𝗗𝗶𝘀𝗰𝗼𝗿𝗱-𝗞𝗶𝗻𝗼
 
 
 Hey! Willkommen beim Anime-Streamer v2.0. 
@@ -8,12 +8,14 @@ Kennst du das? Du willst mit Freunden über Discord Anime schauen, teilst deinen
 Genau dafür ist dieses Skript da. Es ist ein "Dual-Bot-System". Das heißt, ein unsichtbarer Selfbot klinkt sich in den Voice-Channel ein und streamt das Video in brillanter Qualität, während du alles ganz bequem über einen normalen, offiziellen Discord-Bot mit Slash-Befehlen und Klick-Buttons steuerst. 
 
 
-[ WICHTIGER HINWEIS VORAB ]
+
+⚠️ 𝗪𝗜𝗖𝗛𝗧𝗜𝗚𝗘𝗥 𝗛𝗜𝗡𝗪𝗘𝗜𝗦 𝗩𝗢𝗥𝗔𝗕 ⚠️
+
 Discord sieht Selfbots laut ihren Nutzungsbedingungen nicht gerne. Dass wir hier einen normalen Bot für die Bedienung dazwischengeschaltet haben, minimiert das Risiko für deinen Hauptaccount enorm. Aber bitte denk daran: Die Nutzung erfolgt auf eigene Gefahr! Be safe!
 
 
 
-[ WARUM DIESER BOT ROCKT ]
+🚀 𝗪𝗔𝗥𝗨𝗠 𝗗𝗜𝗘𝗦𝗘𝗥 𝗕𝗢𝗧 𝗥𝗢𝗖𝗞𝗧
 
 * Das Beste aus zwei Welten
 Du musst keine kryptischen Befehle mehr tippen. Klick einfach auf die normalen Discord-Buttons (Skip, Stop, Info), die dir der Bot anzeigt.
@@ -32,7 +34,7 @@ Wenn du Binge-Watching betreibst, mach einfach Auto-Skip an. Der Bot lädt dann 
 
 
 
-[ SO STARTEST DU IHN ]
+💻 𝗦𝗢 𝗦𝗧𝗔𝗥𝗧𝗘𝗦𝗧 𝗗𝗨 𝗜𝗛𝗡
 
 1. Was du brauchst
 Node.js sollte installiert sein. Außerdem brauchst du den Brave Browser auf deinem PC, denn den schnappt sich das Skript für das Scraping. Um FFmpeg musst du dich nicht kümmern, das bringt der Bot selbst mit.
@@ -49,7 +51,7 @@ Wenn du ihn dann nochmal startest, installiert er fehlende Pakete nach und geht 
 
 
 
-[ DIE COMMANDS ]
+🎮 𝗗𝗜𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 
 Steuere alles einfach über deinen Discord-Chat:
 
