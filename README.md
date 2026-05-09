@@ -1,5 +1,4 @@
 <img width="1200" height="300" alt="Unbenannt (2)" src="https://github.com/user-attachments/assets/c3a43af8-4295-40c2-b1f8-c3390d98a97c" />
-<img width="1200" height="300" alt="Unbenannt" src="https://github.com/user-attachments/assets/0e0ca648-3097-4e0a-bb1e-fd61c8dc995f" />
 
 [Dokumentation](https://github.com/) • [Support](https://discord.com/) • [Installation](https://github.com/)
 
