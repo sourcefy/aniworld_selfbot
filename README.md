@@ -40,7 +40,7 @@ npm install
 ```
 
 ```bash
-node index.js
+node src/index.js
 ```
 
 3. Beim ersten Start wird `config.env` automatisch erstellt.
