@@ -1,6 +1,6 @@
 <img width="1200" height="300" alt="Unbenannt (2)" src="https://github.com/user-attachments/assets/c3a43af8-4295-40c2-b1f8-c3390d98a97c" />
 
-[Support](https://discord.com/) 
+[Support](https://discord.gg/Nj8wzWPXuB) 
 
 🤖 ## Übersicht
 
