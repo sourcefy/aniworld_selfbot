@@ -1,0 +1,26 @@
+{
+  "name": "anime-discord-bot",
+  "version": "1.0.0",
+  "description": "Modular Anime Discord Bot",
+  "license": "ISC",
+  "author": "Emanuel",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@dank074/discord-video-stream": "^6.0.0",
+    "@discordjs/voice": "^0.18.0",
+    "@ghostery/adblocker-playwright": "^2.16.0",
+    "cross-fetch": "^4.1.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.3.0",
+    "opusscript": "^0.1.1",
+    "play-dl": "^1.9.7",
+    "playwright": "^1.59.1",
+    "puppeteer": "^24.7.2"
+  }
+}
