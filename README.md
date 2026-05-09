@@ -1,17 +1,13 @@
 <img width="1200" height="300" alt="Unbenannt (2)" src="https://github.com/user-attachments/assets/c3a43af8-4295-40c2-b1f8-c3390d98a97c" />
 
-[Dokumentation](https://github.com/) • [Support](https://discord.com/) • [Installation](https://github.com/)
+[Support](https://discord.com/) 
 
-Ein Discord-Bot zur Steuerung und Automatisierung von Anime-Streams über Slash-Commands und Buttons.
-
----
-
-## Übersicht
+🤖 ## Übersicht
 
 Reborn übernimmt die Steuerung von Anime-Streams direkt über Discord.  
 Die Bedienung läuft über Buttons und Slash-Commands, dadurch bleibt alles schnell und übersichtlich.
 
-## Funktionen
+📂 ## Funktionen
 
 - Steuerung direkt über Discord-Buttons.
 - Automatische Installation der benötigten Node-Module und des Playwright-Browsers beim ersten Start.
@@ -20,7 +16,7 @@ Die Bedienung läuft über Buttons und Slash-Commands, dadurch bleibt alles schn
 - Einfache Einrichtung über `config.env`.
 - Unterstützung für Watchlists, Playlists und verschiedene Qualitätsstufen.
 
-## Kommandos
+❔ ## Kommandos
 
 | Befehl | Beschreibung |
 |---|---|
@@ -33,31 +29,30 @@ Die Bedienung läuft über Buttons und Slash-Commands, dadurch bleibt alles schn
 | `/autoskip` | Aktiviert oder deaktiviert Auto-Skip. |
 | `/stats` | Zeigt Uptime, Folgen und Skips. |
 
-## Start
+⚙️ ## Installation
 
-1. `Node.js` installieren.
+1. `Node.js` [20.20.0](https://nodejs.org/en/blog/release/v20.20.0) (LTS)  installieren.
 2. Den Bot im Projektordner starten:
+
+
+```bash
+npm install
+```
 
 ```bash
 node index.js
 ```
 
-Oder empfohlen:
-
-```bash
-start.bat
-```
-
 3. Beim ersten Start wird `config.env` automatisch erstellt.
 4. Dort die benötigten Tokens eintragen und den Bot erneut starten.
 
-## Roadmap
+📈 ## Roadmap
 
 - Weitere Anbieter und Hoster.
 - 24/7 Hosting.
 - Lautstärke direkt über Discord steuerbar.
 - Benachrichtigungen für neue Episoden.
 
-## Hinweis
+❤️ ## Hinweis
 
 Die Nutzung erfolgt auf eigene Verantwortung.
