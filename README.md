@@ -56,3 +56,5 @@ node src/index.js
 ❤️ ## Hinweis
 
 Die Nutzung erfolgt auf eigene Verantwortung.
+
+Bitte beachtet, dass sich die Software noch in einem frühen Entwicklungsstadium befindet und daher einige Bugs enthalten kann. Diese werden in zukünftigen Updates nach und nach behoben.
